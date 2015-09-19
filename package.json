@@ -1,6 +1,6 @@
 {
   "name": "expresse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple SSE server middleware for Express",
   "main": "index.js",
   "scripts": {
