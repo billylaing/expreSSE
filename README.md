@@ -3,7 +3,7 @@
 Below is an example of setting up the server on the ```/events``` route.
 
 ```javascript
-var SSEServer = require('express-sse');
+var SSEServer = require('expresse');
 var sse = new SSEServer('events');
 
 app.get('/events', function(req, res) {
