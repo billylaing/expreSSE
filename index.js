@@ -1,3 +1,5 @@
+'use strict';
+
 var debug = require('debug')('express-sse');
 
 /**
@@ -102,7 +104,7 @@ SSEServer.prototype._send = function(id, event, data, client) {
  * Send heartbeat every 10 seconds
  */
 SSEServer.prototype._heartBeat = function() {
-    this.broadcast('heartbeat', {time: Date.now()});
+    this.broadcast('heartbeat', { time: Date.now() });
     setTimeout(this._heartBeat.bind(this), 10000);
 };
 

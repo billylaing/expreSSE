@@ -1,4 +1,8 @@
+# dirs
 .idea/
+node_modules/
+
+# files
+.eslintignore
+.eslintrc
 .gitignore
-.jscsrc
-Gruntfile.js
