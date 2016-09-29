@@ -1,5 +1,6 @@
 # dirs
 .idea/
+docs/
 node_modules/
 
 # files
