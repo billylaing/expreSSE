@@ -2,9 +2,9 @@
   "name": "expresse",
   "version": "1.0.2",
   "description": "Simple SSE server middleware for Express",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "docs": "jsdoc index.js -d docs",
+    "docs": "jsdoc lib/index.js -d docs",
     "lint": "eslint .",
     "lint-fix": "eslint --fix ."
   },
