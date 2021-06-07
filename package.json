@@ -17,7 +17,7 @@
   "author": "blaing@blaing.io",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^6.4.0",
+    "eslint": "^7.28.0",
     "eslint-config-blaing": "^1.0.0",
     "jsdoc": "^3.4.1"
   },
